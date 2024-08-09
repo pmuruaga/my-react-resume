@@ -11,7 +11,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import FacebookIcon from '../components/Icon/FacebookIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -39,13 +39,14 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
+import FacebookIcon from '../components/Icon/FacebookIcon';
 
 /**
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Pablo Muruaga OnLine Resume',
+  description: "Example site built with Tim Baker's react resume template, updated by Pablo Muruaga showing his own information and professional life resume.",
 };
 
 /**
@@ -69,18 +70,18 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Pablo Muruaga.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a based in Frías, small town from Argentina, in the province of Santiago del Estero, near Córdoba. I'm a <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">Launch Consulting Group</strong> participating in different projects for clients mostly in the US.
+        Some times I work as a freelance developer, helping small business to get their online presence or building custom software for their needs.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can find me in some <strong className="text-stone-100">Padel</strong> court in my town,
+        playing with my <strong className="text-stone-100">harmonic, guitar or keybord</strong> dreaming I'm the next music inspiration,
+        or exploring beautiful{' '}<strong className="text-stone-100">Landscape</strong> taking pictures or videos with my cameras.
       </p>
     </>
   ),
@@ -104,16 +105,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `System Analyst and Developer specialized in .Net Technologies C#/ASP.NET/MVC. Web technologies oriented with knowledge in 
+React, Javascript, HTML5, CSS3. Experience on database SQL and NoSQL languages.
+Currently working as .Net Developer at Launch, as a remote Fullstack Developer (Backend C# / MVC - FrontEnd React/NextJS).`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Frías, Santiago del Estero, ARG', Icon: MapIcon},
+    {label: 'Age', text: '42', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Argentinian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Padel, Photography, Guitar, Piano, Harmonic', Icon: SparklesIcon},
+    {label: 'Study', text: 'Instituto Universitario Aeronáutico', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Launch Consulting Group - The Planet Group', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,16 +126,16 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Spanish',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'English',
+        level: 8,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Portuguese',
+        level: 5,
       },
     ],
   },
@@ -143,14 +144,14 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 7,
       },
       {
         name: 'Typescript',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'MVC',
         level: 6,
       },
     ],
@@ -159,33 +160,33 @@ export const skills: SkillGroup[] = [
     name: 'Backend development',
     skills: [
       {
-        name: 'Node.js',
+        name: '.NET (C#)',
         level: 8,
       },
       {
-        name: 'Rust',
+        name: 'Node.js',
         level: 5,
       },
       {
-        name: 'Golang',
+        name: 'PHP',
         level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Other Skills',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'Azure',
+        level: 7,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'SQL Server',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Graphic Design Tools',
+        level: 7,
       },
     ],
   },
@@ -336,27 +337,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'You can leave a message here, or you can find me on any of my social network profiles.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
+      text: 'pmuruaga@gmail.com',
       href: 'mailto:reachout@timbaker.me',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Frías, Santiago del Estero, ARG',
+      href: 'https://www.google.com/maps/place/Fr%C3%ADas,+Santiago+del+Estero+Province,+Argentina/@-28.6357042,-65.1467328,14z/data=!3m1!4b1!4m6!3m5!1s0x9425a84f49ae19cf:0xfaeb099e28896605!8m2!3d-28.6375538!4d-65.1287605!16s%2Fm%2F0bwhr62?entry=ttu',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@pablomurdev',
+      href: 'https://www.instagram.com/pablomurdev',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'pmuruaga',
+      href: 'https://github.com/pmuruaga',
     },
   ],
 };
@@ -365,9 +366,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/pmuruaga'},
+  {label: 'Facebook', Icon: FacebookIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/pmuruaga/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/pablomurdev/'},
   {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
