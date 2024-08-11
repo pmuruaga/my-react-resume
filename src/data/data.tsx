@@ -199,70 +199,34 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Hotel Victoria',
+    description: 'Local hotel in the city, project made using Wordpress',
+    url: 'https://hotelvictoria-frias.com.ar/',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Wellness Therapy',
+    description: 'Project made using Google Sites, a simple landing page for a wellness therapist from New York',
+    url: 'https://www.wellnesstherapyct.com/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'La Chiri',
+    description: 'Project made using C#, MVC 4, for a Bingo, allowing using to control if they cards are participating',
+    url: 'http://lachiri.com.ar',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Rental Martin',
+    description: 'Web site for a local truck rental company, made using Joomla',
+    url: 'https://rentalmartin.com.ar',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Slanoa',
+    description: 'Joomla site for a local company that bring services industrial security consulty',
+    url: 'http://slanoa.com.ar',
     image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
@@ -271,16 +235,16 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'April 2017',
+    location: 'Instituto Universitario Aeronáutico, Cordoba, Argentina',
+    title: 'Analista de Sistemas',
+    content: <p>Finished my studies presenting a final work made with .NET MVC, SQL Server, web application for agriculture management.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'October 2023',
+    location: 'Microsoft Certified',
+    title: 'MS-900',
+    content: <p>I have approved my MS-900 Certification</p>,
   },
 ];
 
@@ -344,7 +308,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Email,
       text: 'pmuruaga@gmail.com',
-      href: 'mailto:reachout@timbaker.me',
+      href: 'mailto:pmuruaga@gmail.com',
     },
     {
       type: ContactType.Location,
