@@ -426,8 +426,7 @@ export const experience: TimelineItem[] = [
     location: 'Instituto de Computación',
     title: 'Profesor de Computación',
     content: (
-      <p>
-        <b>Backend developer</b> collaborated on architecture design and web development using C#, SQL, Google Maps, and ASP.NET 
+      <p>        
       </p>
     ),
   }
