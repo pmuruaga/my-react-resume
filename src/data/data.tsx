@@ -242,29 +242,195 @@ export const education: TimelineItem[] = [
   },
 ];
 
+/**
+ * Resume section -- TODO: Standardize resume contact format or offer MDX
+ */
+export const trainings: TimelineItem[] = [
+  {
+    date: '2024',
+    location: 'UTN Bs.As. - Online',
+    title: 'Azure at UTN Virtual Training Portal',
+    content: <p></p>,
+  },
+  {
+    date: '2023',
+    location: 'UTN Bs.As. - Online',
+    title: 'Business Analyst Course at UTN Virtual Training Portal',
+    content: <p></p>,
+  },
+  {
+    date: '2022',
+    location: 'UTN Bs.As. - Online',
+    title: 'React Training at UTN Virtual Training Portal',
+    content: <p></p>,
+  },
+  {
+    date: '2020',
+    location: 'Image Campus',
+    title: 'Unity Augmented Reality - ARCore - ARFoundation - Spark AR',
+    content: <p></p>,
+  },
+  {
+    date: '2019',
+    location: 'UTN Bs.As., Online',
+    title: 'Angular Training at UTN Virtual Training Portal',
+    content: <p></p>,
+  },
+  {
+    date: '2014',
+    location: 'Intertron Institute - Córdoba',
+    title: '.NET MVC 4 Training for 70486 Course',
+    content: <p></p>,
+  }
+];
+
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Jul 2022 - Present',
+    location: 'Launch Consulting Group',
+    title: 'Senior Software Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Participated in various industry projects including Real Estate (Skyslope), Health (NuWest), Travel (Expedia), and Software industries (Microsoft), involving diverse technologies. 
+        <b>Technologies:</b> React, NodeJS, Tailwind, NextJS, Docker, CI/CD, Spotify Backstage, .Net Core, MVC, MySQL, Bitbucket, Jira 
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'Jun 2020 – Jun 2022',
+    location: 'Globant',
+    title: 'Backend .NET Developer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        <b>.Net Backend Developer</b> Implemented backend enhancements to APIs using C# WebApi, consumed by mobile e-commerce applications (For Sodimac Homecenter Colombia). 
+        Maintained projects in C# .Net Core Web API and C# .Net Framework Web API. 
+        Collaborated in database changes (SQL, MongoDB, PostgreSQL). 
+        Participated in the development of a C# MVC .Net back-office application for content management. 
       </p>
     ),
   },
+  {
+    date: 'Dic 2019 – May 2020',
+    location: 'Clarika S.I.',
+    title: 'Backend .NET Developer',
+    content: (
+      <p>
+        <b>FullStack .NET Developer</b> working on Angular + .NET 
+        Application For Turism Industry web application. 
+      </p>
+    ),
+  },
+  {
+    date: 'Dic 2018 – Nov 2019',
+    location: 'Vënon Solutions',
+    title: 'Backend .NET Developer',
+    content: (
+      <p>
+        <b>Worked as a backend developer on projects using C# WebApi and Angular</b>, focusing on developing applications and knowledge transfer tools. 
+        Implemented enhancements and maintenance for customer websites. 
+        Participated in infrastructure migration and configuration of Hyper-V virtual machines and servers. 
+        Contributed to video editing for institutional presentations. 
+        Collaborated on web maintenance using WordPress and ASP.NET projects. 
+      </p>
+    ),
+  },
+  {
+    date: 'Jun 2020 – Jun 2022',
+    location: 'Globant',
+    title: 'Backend .NET Developer',
+    content: (
+      <p>
+        <b>.Net Backend Developer</b> Implemented backend enhancements to APIs using C# WebApi, consumed by mobile e-commerce applications. 
+        Maintained projects in C# .Net Core Web API and C# .Net Framework Web API. 
+        Collaborated in database changes (SQL, MongoDB, PostgreSQL). 
+        Participated in the development of a C# MVC .Net back-office application for content management. 
+      </p>
+    ),
+  },
+  {
+    date: 'Feb 2017 – Nov 2018',
+    location: 'Freelance',
+    title: 'Fullstack Developer',
+    content: (
+      <p>
+        Leading the development of small web systems projects using MVC.NET and SQL Server. 
+        Collaborated on web design and development with Joomla and WordPress. 
+        Developed e-commerce sites using PrestaShop and WooCommerce. 
+        -Small web systems projects with MVC.NET – SQL Server
+        lachiri.com.ar
+        Web design and development with Joomla and Wordpress
+        hotel-simon.com.ar - rentalmartin.com.ar - slanoa.com.ar
+        - ECommerce: Prestashop and Woocommerce
+        dreamvalleysvg.com
+      </p>
+    ),
+  },
+  {
+    date: 'Jul 2010 – Jan 2017',
+    location: 'Hewlett-Packard',
+    title: 'Backend .NET Developer',
+    content: (
+      <p>
+        <b>Fullstack Developer</b> Collaborated in SSIS (SQL Server Integration Services) data migration from a similar application. 
+        Led development team on the Music Portal application. 
+        Worked on web development for the Music Portal application. 
+        Led software development team, focusing on maintenance and new feature development. 
+        Visited Los Angeles office for 8-week training and documentation. 
+        Provided support, SQL, and bug fixing in collaboration with teams from the USA, India, and Mexico. 
+        Developed MVC applications using ASP.NET/C#.NET. 
+      </p>
+    ),
+  },
+  {
+    date: 'Sep 2008 – Jun 2010',
+    location: 'Indra',
+    title: '.NET Developer',
+    content: (
+      <p>
+        <b>Backend developer</b> collaborated on architecture design and web development using C#, SQL, Google Maps, and ASP.NET 
+      </p>
+    ),
+  },
+  {
+    date: 'Nov 2007 – Ago 2008',
+    location: 'Fenecstudio.com',
+    title: 'Fullstack Developer',
+    content: (
+      <p>
+        Led a small team in designing and implementing websites using Joomla, WordPress, PHP, MySQL, and Apache. 
+      </p>
+    ),
+  },
+  {
+    date: 'Jul 2007 – Oct 2007',
+    location: 'Gameloft',
+    title: 'J2ME Developer',
+    content: (
+      <p>
+        Collaborated on video game porting using J2ME. 
+      </p>
+    ),
+  },
+  {
+    date: 'Oct 2006 – Jun 2007',
+    location: 'Hospital Privado de Córdoba',
+    title: '.NET Developer',
+    content: (
+      <p>
+        Web Developer Internship Collaborated on web app development using Java, Oracle, VB.NET, SQL Server, and IIS.  
+      </p>
+    ),
+  },
+  {
+    date: 'Mar 1999 – Nov 1999',
+    location: 'Instituto de Computación',
+    title: 'Profesor de Computación',
+    content: (
+      <p>
+        <b>Backend developer</b> collaborated on architecture design and web development using C#, SQL, Google Maps, and ASP.NET 
+      </p>
+    ),
+  }
 ];
 
 /**
