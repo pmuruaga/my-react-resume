@@ -55,7 +55,8 @@ export const SectionId = {
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
-  Stats: 'stats',  
+  Stats: 'stats',
+  Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -82,7 +83,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1I8fJo2rCV60cIr-GLTMSRIfqOnZVyo5E/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1I8fJo2rCV60cIr-GLTMSRIfqOnZVyo5E/view?usp=drive_link',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
