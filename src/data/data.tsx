@@ -55,8 +55,7 @@ export const SectionId = {
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
-  Stats: 'stats',
-  Testimonials: 'testimonials',
+  Stats: 'stats',  
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
@@ -83,7 +82,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://drive.google.com/file/d/1I8fJo2rCV60cIr-GLTMSRIfqOnZVyo5E/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
