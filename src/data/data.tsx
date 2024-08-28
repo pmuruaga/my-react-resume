@@ -42,7 +42,7 @@ import FacebookIcon from '../components/Icon/FacebookIcon';
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Pablo Muruaga OnLine Resume',
-  description: "Example site built with Tim Baker's react resume template, updated by Pablo Muruaga showing his own information and professional life resume.",
+  description: "Pablo Muruaga personal website showing his own information and professional life resume.",
 };
 
 /**
