@@ -231,7 +231,7 @@ export const education: TimelineItem[] = [
   {
     date: 'April 2017',
     location: 'Instituto Universitario Aeronáutico, Cordoba, Argentina',
-    title: 'Analista de Sistemas',
+    title: 'Systems Analyst',
     content: <p>Finished my studies presenting a final work made with .NET MVC, SQL Server, web application for agriculture management.</p>,
   },
   {
@@ -437,8 +437,13 @@ export const experience: TimelineItem[] = [
  */
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
-  testimonials: [
-    {
+  testimonials: [    
+  ],
+};
+
+/**
+ * 
+ * {
       name: 'John Doe',
       text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
@@ -453,8 +458,8 @@ export const testimonial: TestimonialSection = {
       text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
-  ],
-};
+ * 
+ */
 
 /**
  * Contact section
