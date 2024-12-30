@@ -235,6 +235,12 @@ export const education: TimelineItem[] = [
     content: <p>Finished my studies presenting a final work made with .NET MVC, SQL Server, web application for agriculture management.</p>,
   },
   {
+    date: 'December 2024',
+    location: 'Microsoft Certified: Azure Fundamentals',
+    title: 'AZ-900',
+    content: <p>I have approved my AZ-900 Certification</p>,
+  },
+  {
     date: 'October 2023',
     location: 'Microsoft Certified',
     title: 'MS-900',
