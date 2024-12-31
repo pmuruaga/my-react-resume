@@ -253,6 +253,12 @@ export const education: TimelineItem[] = [
  */
 export const trainings: TimelineItem[] = [
   {
+    date: '2024/5',
+    location: 'UTN Reconquista - Online',
+    title: 'AI Diplomacy with Python - 1 Year Diplomacy',
+    content: <p></p>,
+  },
+  {
     date: '2024',
     location: 'UTN Bs.As. - Online',
     title: 'Azure at UTN Virtual Training Portal',
