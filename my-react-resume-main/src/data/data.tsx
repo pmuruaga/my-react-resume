@@ -83,7 +83,13 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'https://drive.google.com/file/d/1I8fJo2rCV60cIr-GLTMSRIfqOnZVyo5E/view?usp=drive_link',
+      href: 'https://docs.google.com/document/d/1TeT2DWrw8VJzW9YpFaoqORGndJWg5dRsiRgF0glXbBc/edit?usp=sharing',
+      text: 'Resume Harvard Style',
+      primary: true,
+      Icon: ArrowDownTrayIcon,
+    },
+    {
+      href: 'https://drive.google.com/file/d/16NlcgXg8NiB_jPO_V6IxbyY-1w_kDtBi/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -131,7 +137,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Portuguese',
-        level: 5,
+        level: 7,
       },
     ],
   },
@@ -235,6 +241,18 @@ export const education: TimelineItem[] = [
     content: <p>Finished my studies presenting a final work made with .NET MVC, SQL Server, web application for agriculture management.</p>,
   },
   {
+    date: 'September 2025',
+    location: 'Microsoft Certified: AI Fundamentals',
+    title: 'AI-900',
+    content: <p>I have approved my AI-900 Certification</p>,
+  },
+  {
+    date: 'December 2024',
+    location: 'Microsoft Certified: Azure Fundamentals',
+    title: 'AZ-900',
+    content: <p>I have approved my AZ-900 Certification</p>,
+  },
+  {
     date: 'October 2023',
     location: 'Microsoft Certified',
     title: 'MS-900',
@@ -246,6 +264,12 @@ export const education: TimelineItem[] = [
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
 export const trainings: TimelineItem[] = [
+  {
+    date: '2024/5',
+    location: 'UTN Reconquista - Online',
+    title: 'AI Diplomacy with Python - 1 Year Diplomacy',
+    content: <p></p>,
+  },
   {
     date: '2024',
     location: 'UTN Bs.As. - Online',
